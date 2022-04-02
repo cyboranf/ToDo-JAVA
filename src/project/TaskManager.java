@@ -32,7 +32,8 @@ public class TaskManager {
             options();
             input = scan.nextLine();
         }
-        System.out.println("Program ended");
+        System.out.println("Program ended."+ConsoleColors.RED+" Bye, bye");
+        System.out.print(ConsoleColors.RESET);
     }
 
     public static void options() {
@@ -71,6 +72,7 @@ public class TaskManager {
 
 
             System.out.println("Do u want end TaskManager? Yes/No:");
+
             end = scan.nextLine();
             x++;
         }
